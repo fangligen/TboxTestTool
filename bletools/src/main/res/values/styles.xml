@@ -1,0 +1,26 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/main_bg</item>
+    <item name="colorPrimaryDark">@color/main_bg</item>
+    <item name="colorAccent">@color/main_bg</item>
+    <item name="android:listDivider">@drawable/listdivider</item>
+  </style>
+
+
+  <style name="ImmersionTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowTranslucentNavigation">true</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="popupMenuStyle">@style/myPopupMenu</item>
+    <item name="android:listDivider">@drawable/listdivider</item>
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--<item name="android:background">@color/main_bg</item>-->
+  </style>
+
+  <style name="myPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+    <item name="android:popupBackground">#FFFFFF</item>
+  </style>
+
+</resources>

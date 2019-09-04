@@ -1,0 +1,82 @@
+<resources>
+  <string name="app_name">GoFunBle</string>
+
+  <string name="notifyTitle">提示</string>
+  <string name="gpsNotifyMsg">当前手机扫描蓝牙需要打开定位功能。</string>
+  <string name="setting">前往设置</string>
+  <string name="cancel">取消</string>
+  <string name="connect_success">连接成功</string>
+  <string name="connect_fail">连接失败</string>
+  <string name="disconnected">连接断开</string>
+  <string name="error_mac_null">MAC地址不能为空</string>
+
+  <string-array name="data_name">
+    <item>剩余电量  ：</item>
+    <item>小电瓶电压：</item>
+    <item>续航里程  ：</item>
+    <item>总 里 程  ：</item>
+  </string-array>
+  <string-array name="data_value">
+    <item>78</item>
+    <item>11.58</item>
+    <item>11.58</item>
+    <item>11.58</item>
+  </string-array>
+  <string-array name="data_unit">
+    <item>%</item>
+    <item>V</item>
+    <item>KM</item>
+    <item>KM</item>
+  </string-array>
+
+  <string-array name="car_status_name">
+    <item>点火</item>
+    <item>供电</item>
+    <item>功耗</item>
+    <item>慢充</item>
+    <item>快充</item>
+    <item>主驾门</item>
+    <item>副驾门</item>
+    <item>左后门</item>
+    <item>右后门</item>
+    <item>后备箱</item>
+  </string-array>
+  <string-array name="car_status_value">
+    <item>true</item>
+    <item>false</item>
+    <item>true</item>
+    <item>false</item>
+    <item>true</item>
+    <item>false</item>
+    <item>true</item>
+    <item>false</item>
+    <item>true</item>
+    <item>false</item>
+    <item>true</item>
+    <item>false</item>
+  </string-array>
+  <string-array name="gps_name">
+    <item>状态：</item>
+    <item>速度：</item>
+    <item>经度：</item>
+    <item>维度：</item>
+  </string-array>
+  <string-array name="gps_value">
+    <item>睡眠</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+  </string-array>
+  <string-array name="gsm_name">
+    <item>状态：</item>
+    <item>信号强度：</item>
+    <item>位置区码：</item>
+    <item>小区ID：</item>
+  </string-array>
+  <string-array name="gsm_value">
+    <item>睡眠</item>
+    <item>12</item>
+    <item>123</item>
+    <item>65431</item>
+  </string-array>
+</resources>

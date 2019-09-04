@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:fillViewport="true"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:animateLayoutChanges="true"
+      android:orientation="vertical"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+      <EditText
+          android:id="@+id/activity_mac_input"
+          android:layout_width="0dp"
+          android:layout_height="50dp"
+          android:layout_weight="1"
+          />
+
+      <TextView
+          android:id="@+id/activity_btn_status"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="6dp"
+          android:text="未连接"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+      <Button
+          android:id="@+id/activity_btn_connect"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="连接"
+          />
+
+      <Button
+          android:id="@+id/btn_disconnect"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="断开连接"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+      <Button
+          android:id="@+id/activity_btn_start"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="用车压力测试开始"
+          />
+
+      <Button
+          android:id="@+id/activity_btn_pause"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="蓝牙车务"
+          />
+
+      <Button
+          android:id="@+id/activity_btn_stop"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="6dp"
+          android:layout_weight="1"
+          android:text="停止"
+          />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_opendoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开门"
+        />
+
+    <Button
+        android:id="@+id/btn_closedoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关门"
+        />
+
+    <Button
+        android:id="@+id/btn_poweron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="供电"
+        />
+
+    <Button
+        android:id="@+id/btn_poweroff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="断电"
+        />
+
+    <Button
+        android:id="@+id/btn_opendoor_poweron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开门供电"
+        />
+
+    <Button
+        android:id="@+id/btn_closedoor_poweroff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关门断电"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+      <TextView
+          android:id="@+id/result_success"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="成功：0"
+          />
+
+      <TextView
+          android:id="@+id/result_fail"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="失敗：0"
+          />
+
+      <TextView
+          android:id="@+id/result_timeout"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="超時：0"
+          />
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

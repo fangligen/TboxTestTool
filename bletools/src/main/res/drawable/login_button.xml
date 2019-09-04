@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"><!-- 这里指定了我现在要画的是一个矩形 -->
+    <corners android:radius="4dip" />
+    <solid android:color="@color/alphe_login"/>
+</shape>
